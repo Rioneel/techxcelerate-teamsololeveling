@@ -13,8 +13,8 @@ client = groq.Client(api_key=GROQ_API_KEY)
 # SMTP Configuration (Real Server)
 SMTP_SERVER = "smtp.aspiredev.in"  # Replace with actual SMTP server
 SMTP_PORT = 587  # Use 465 for SSL, 587 for TLS
-SENDER_EMAIL = "no-reply-@aspiredev.in"
-SENDER_PASSWORD = "S:_pw&>C:^$_cR2"  # Store securely, avoid hardcoding
+SENDER_EMAIL = "hello@aspiredev.in"
+SENDER_PASSWORD = "{f3hsTp4g3"  # Store securely, avoid hardcoding
 
 lead_engagement = {}
 
