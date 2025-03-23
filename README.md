@@ -16,7 +16,7 @@ This project is designed to enhance ad engagement and lead nurturing using AI-ge
 - **Pandas** (Data handling and processing)
 - **SMTP Server (Local)** (Email sending functionality for testing)
 
-   ```
+
 
 ## 📩 How It Works
 1. Upload a CSV file containing user data (username, email, ad clicked).
