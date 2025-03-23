@@ -6,15 +6,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import groq
 
-# Groq API Key (Replace with actual key)
-GROQ_API_KEY = "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"
+
+GROQ_API_KEY = ""
 client = groq.Client(api_key=GROQ_API_KEY)
 
 # SMTP Configuration (Real Server)
-SMTP_SERVER = "smtp.aspiredev.in"  # Replace with actual SMTP server
-SMTP_PORT = 587  # Use 465 for SSL, 587 for TLS
+SMTP_SERVER = "smtp.aspiredev.in"  
+SMTP_PORT = 587
 SENDER_EMAIL = "hello@aspiredev.in"
-SENDER_PASSWORD = "{f3hsTp4g3"  # Store securely, avoid hardcoding
+SENDER_PASSWORD = ""
 
 lead_engagement = {}
 
